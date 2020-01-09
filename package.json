@@ -1,0 +1,39 @@
+{
+  "name": "TAU-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel client/public/index.html",
+    "start-server": "nodemon server/server.js",
+    "start-build": "parcel build client/public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fromhere1989/TAU-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fromhere1989/TAU-test/issues"
+  },
+  "homepage": "https://github.com/fromhere1989/TAU-test#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "google-maps-react": "^2.0.2",
+    "nodemon": "^2.0.2",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "sass": "^1.20.3"
+  }
+}
