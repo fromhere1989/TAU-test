@@ -21,7 +21,7 @@
   "homepage": "https://github.com/fromhere1989/TAU-test#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "google-maps-react": "^2.0.2",
     "nodemon": "^2.0.2",
     "parcel-bundler": "^1.12.3",
